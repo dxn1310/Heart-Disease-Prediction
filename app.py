@@ -63,7 +63,7 @@ st.markdown("<h1 style='text-align: center; color: white;'>Heart Disease Detecti
 biking = st.number_input('Percentage of Biking')
 smoking = st.number_input('Percentage of Smoking')
 
-calculate = st.button("Calculate Salary")
+calculate = st.button("Calculate")
 if calculate:
     features = np.array([[biking,smoking]])
 
